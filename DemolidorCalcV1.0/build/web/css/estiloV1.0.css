@@ -1,0 +1,296 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08/08/2014, 07:39:42
+    Author     : 1946810
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    color: red;
+    text-decoration: none;
+}
+#bt{
+    border: none;
+}
+///css da página index.
+*{
+    margin: 0;
+    padding: 0;
+}
+//mensagem de erro
+h4{
+    position: absolute;
+    right: 30%;
+    color: white;
+}
+//fim do estilo da mensagen de erro
+/*#planoDeFundo{    
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 90%;
+    background-size: 100%;
+}*/
+#imglogo{
+    position: relative;
+    top: 4%; 
+    left: 5%;}
+.btlogin{
+    position: absolute;
+    right: 5%;
+    top: 83%;
+    padding: 0.5%;
+}
+.caxnome{
+    position: absolute;
+    top:10%;
+    width: 200px;
+    right: 3%;
+}
+.caxsenha{
+    position:absolute;
+    width: 200px;
+    top: 50%;
+    right: 3%;    
+}
+.labeluser{
+    position: absolute;
+    top: 10%;
+    left:  2%;
+    color: azure;
+}
+.labelsenha{
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    color: azure;
+}
+.forgetpass{
+    text-decoration: none;
+    color: white;
+    position: fixed;
+    right: 288px;
+    bottom: 22%;
+    position: absolute;
+    right: 30%;
+    top: 83%;
+}
+.formcxlogin{
+    color: white;
+    position: relative;
+    padding: 7%;
+}
+.fieldlogin{
+    padding: 5%;
+    width: 300px;
+    position: static;
+    border-color: darkred;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+#cxlogin{
+    position: static;
+    padding-top: 30%;
+    padding-left: 60%;
+    width: 270px;
+    height: 100px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    
+    
+}
+///fim do estilo da página index
+
+//estilo dos cabeçalhos
+#todocorpo{
+    background-color: black;
+    position: relative;
+    right: initial;
+    top: 10%;
+    margin-left: 10%;
+}
+
+#cabecalho{
+    font-size: 20px;    
+    margin-left: 90%;    
+    position: relative;
+    height: 150px;
+}
+////css das demais páginas.
+#corpocentral{
+    margin-left: 2em;
+    margin-right: 2em;
+    position: relative;  
+}
+
+#corpocentral section nav{
+    background-color: #f3f3f3;
+    height: 27em;
+    left: 3%;
+    line-height: 2;
+    margin-right: 65em;
+    padding-left: 4%;
+    padding-top: 5%;
+    position: relative;
+}
+#corpoconteudo{
+    background-color: black;
+    margin-left: 15em;
+    margin-right: 15em;
+    position: absolute;
+    height: 20em;
+    float: left;
+}
+//estilo da tabela de botões da página inicial 
+#img30{
+    position: absolute;
+    padding-bottom: 15em;
+    padding-right: 10em;
+    left: 12%;
+    margin-left: 50em;
+}
+.img2{
+    position: relative;
+    padding-bottom: 0%;
+    left: 27%;    
+}
+.img3{
+    position: relative;
+    padding-bottom: 5%;
+    left: 1%;
+}
+.img4{
+  position: relative;
+    padding-bottom: 5%;
+    left: 27%;   
+}
+.img5{
+    position: relative;
+    padding-bottom: 30%;
+    left: 1%;
+}
+.img6{
+    position: relative;
+    padding-bottom: 30%;
+    left: 27%; 
+}
+//fim estilo da tabela de botões da página inicial
+
+//centro da página de suporte
+.relato_da_duvida{
+    font-style: italic;
+    font-family: "Comic Sans MS", Aharoni, Verdana;
+    color: #ccc;    
+}
+#campoSuporte{
+    position: absolute;
+    top: 22.5%;
+    left:27%;
+}
+.idnt{
+    position: absolute;
+    top: -1%;
+    left: 5%;
+}
+.idntd{
+    position: absolute;
+    top: -1%;
+    left: 25%;
+}
+.idntdd{
+    position: absolute;
+    top: -1%;
+    left: 32%;
+}
+//fim do centro da página de suporte
+.linha{
+    border: 1pt solid black;
+}
+//estilo do menu e dos itens de menu
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 140px;
+}
+li{
+    width: 130px;
+}
+ul li {
+    position: relative;
+    list-style: none;
+}
+ul li ul li{
+    width: 140px;
+}
+li ul { 
+    position: absolute; 
+    left: 130px; 
+    top: 0; 
+    display: none; 
+}
+ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 0px;
+    border-bottom: 0;
+}
+ul li a:hover{
+    position: relative;
+    color: white;
+    display: block;
+}
+li:hover ul, li.over ul { 
+    display: block; 
+}
+a:hover {
+    background-color: red;
+}
+.btLogout:hover{
+    color: azure;
+}
+
+.bt {
+    position: absolute;
+    top: 20%;
+    left: 30%; 
+}
+.bt:hover {
+    color: azure;
+}
+
+.bt2 {
+    position: absolute;
+    top: 20%;
+    left: 37.5%;
+}
+.bt2:hover {
+    color: azure;
+}
+.bt3 {
+    position: absolute;
+    bottom: 5%;
+    right: 20%;
+    width: 70px;
+    height: 70px;
+}
+//recuperação de senha
+#redbar{ 
+    position: absolute;
+    top:0;
+    height: 100px;
+    width: 100%;
+    background-color: red;
+} 
+#tablerecu{
+    position:absolute;
+    top: 30%;
+    left: 5%;
+}
+//fim da recuperação de senha
